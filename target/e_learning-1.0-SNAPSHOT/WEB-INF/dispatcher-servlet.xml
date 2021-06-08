@@ -25,11 +25,29 @@
 
     <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
+            
             <props>
-                <prop key="index.htm">indexController</prop>
+                <prop key="index.htm">IndexController</prop>
+                <prop key="indexprof.htm">IndexProfController</prop>
+                <prop key="area1.htm">Area1Controller</prop>
+                <prop key="area2.htm">Area2Controller</prop>
+                <prop key="areas.htm">AreasController</prop>
+                <prop key="artes.htm">ArtesController</prop>
+                <prop key="cursoprincipal.htm">CursoPrincipalController</prop>
+                <prop key="cursos.htm">CursosController</prop>
+                <prop key="examen.htm">ExamenController</prop>
+                <prop key="login.htm">LoginController</prop>
+                <prop key="perfilalumno.htm">PerfilAlumnoController</prop>
+                <prop key="perfilmaestro.htm">PerfilMaestroController</prop>
+                <prop key="recuperarcontraseña.htm">RecuperarContraseñaController</prop>
+                <prop key="registros.htm">RegistrosController</prop>
+                <prop key="sociales.htm">SocialesController</prop>
+                <prop key="test.htm">TestController</prop>
             </props>
         </property>
     </bean>
+    
+    
 
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver"
@@ -39,6 +57,20 @@
     <!--
     The index controller.
     -->
-    <bean name="indexController" class="org.springframework.web.servlet.mvc.ParameterizableViewController" p:viewName="index" />
-
+    <bean name="IndexController" class="com.b1soft.e_learning.controllers.IndexController"/>
+    <bean name="IndexProfController" class="com.b1soft.e_learning.controllers.IndexProfController"/>
+    <bean name="Area1Controller" class="com.b1soft.e_learning.controllers.Area1Controller"/>
+    <bean name="Area2Controller" class="com.b1soft.e_learning.controllers.Area2Controller"/>
+    <bean name="AreasController" class="com.b1soft.e_learning.controllers.AreasController"/>
+    <bean name="ArtesController" class="com.b1soft.e_learning.controllers.ArtesController"/>
+    <bean name="CursoPrincipalController" class="com.b1soft.e_learning.controllers.CursoPrincipalController"/>
+    <bean name="CursosController" class="com.b1soft.e_learning.controllers.CursosController"/>
+    <bean name="ExamenController" class="com.b1soft.e_learning.controllers.ExamenController"/>
+    <bean name="LoginController" class="com.b1soft.e_learning.controllers.LoginController"/>
+    <bean name="PerfilAlumnoController" class="com.b1soft.e_learning.controllers.PerfilAlumnoController"/>
+    <bean name="PerfilMaestroController" class="com.b1soft.e_learning.controllers.PerfilMaestroController"/>
+    <bean name="RecuperarContraseñaController" class="com.b1soft.e_learning.controllers.RecuperarContraseñaController"/>
+    <bean name="RegistrosController" class="com.b1soft.e_learning.controllers.RegistrosController"/>
+    <bean name="SocialesController" class="com.b1soft.e_learning.controllers.SocialesController"/>
+    <bean name="TestController" class="com.b1soft.e_learning.controllers.TestController"/>
 </beans>

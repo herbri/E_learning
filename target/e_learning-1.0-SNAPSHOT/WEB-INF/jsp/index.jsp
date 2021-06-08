@@ -17,7 +17,11 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-
+        <!-- Bootstrap core JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="/js/scripts.js"></script>
         <!--cambiar el color de fondo a la barra -->
         <style>.navbar {background-color:#3A85F3 !important;}</style>
 
@@ -92,7 +96,7 @@
                         <img class="card-img-top" src="area-4.png" alt="..." />
                         <div class="card-body">
                             <h4 class="card-title">Arte y Humanidades</h4>
-                            <p class="card-text">Aquí encontrataras cursos relacionados a el area de Arte y Humanidades.</p>
+                            <p class="card-text">Aquí encontraras cursos relacionados a el area de Arte y Humanidades.</p>
                         </div>
                         <div class="card-footer"><a class="btn btn-primary" href="#!">Me interesa!</a></div>
                     </div>
@@ -103,11 +107,6 @@
         <footer class="Footer"><br>
             <div class="container"><p class="m-0 text-center text-white">Todos los derechos reservados | © 2021 B1 SOFT</p></div><br>
         </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="/js/scripts.js"></script>
     </body>
 </html>
 
