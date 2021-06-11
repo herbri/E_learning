@@ -2,6 +2,7 @@ C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dto\Certifi
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\TestFinalService.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\impl\DocumentosDaoImpl.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\CursosController.java
+C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\PerfilInstructorController.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\PerfilAlumnoController.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\impl\PreguntasLeccionServiceImpl.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\VideosService.java
@@ -11,8 +12,10 @@ C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dto\VideosD
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dto\CursoDto.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\entidades\Curso.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\TestLeccionDao.java
+C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\IndexUsuController.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\Area1Controller.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dto\Preguntas_finalDto.java
+C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\LoginProfController.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\InstructorDao.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\LeccionesDao.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\CertificadoDao.java
@@ -35,8 +38,8 @@ C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\resources\J
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\CursoDao.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\IndexProfController.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\ArtesController.java
+C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\IndexController.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\entidades\Videos.java
-C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\PerfilMaestroController.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\UsuariosDao.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\Preguntas_finalService.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\JAXRSConfiguration.java
@@ -48,6 +51,7 @@ C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\Cer
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\impl\UsuariosServiceImpl.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\entidades\Certificado.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\impl\TestFinalServiceImpl.java
+C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\AreasGeneralController.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\impl\Preguntas_finalServiceImpl.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\entidades\Instructor.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\entidades\PreguntasLeccion.java

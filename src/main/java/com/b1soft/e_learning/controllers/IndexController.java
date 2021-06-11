@@ -17,9 +17,9 @@ import org.springframework.web.servlet.ModelAndView;
 public class IndexController {
     /*Mostrar Vista*/
     @RequestMapping(value = "index.htm", method = RequestMethod.GET)
-    public ModelAndView index(){
+    public ModelAndView index(){ 
        ModelAndView model = new ModelAndView();
-        model.setViewName("index");
+       model.setViewName("index");
         return model;
     }
 }

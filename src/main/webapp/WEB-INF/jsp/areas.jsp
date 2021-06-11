@@ -13,7 +13,16 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Areas </title>
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        
+         <!-- Bootstrap core JS-->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -185,7 +194,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="B1_Soft_Negro_con_Sombra.png" width="160px" height="40"></a>
+                <a class="navbar-brand" href="index.htm"><img src="B1_Soft_Negro_con_Sombra.png" width="160px" height="40"></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
@@ -213,9 +222,9 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mi Cuenta</a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
-                                <a class="dropdown-item" href="full-width.html">Inicio </a>
-                                <a class="dropdown-item" href="sidebar.html">Mi Perfil</a>
-                                <a class="dropdown-item" href="faq.html">Cerrar Sesión</a>
+                                <a class="dropdown-item" href="indexusu.htm">Inicio </a>
+                                <a class="dropdown-item" href="perfilalumno.htm">Mi Perfil</a>
+                                <a class="dropdown-item" href="index.htm">Cerrar Sesión</a>
                                 
                             </div>
                         </li>
@@ -228,7 +237,7 @@
             <div class="container">
                 <!-- Page Heading/Breadcrumbs-->
                 <center><ol class="breadcrumb mb-4">
-                    <li class="breadcrumb-item"><a href="index.html">Inicio </a></li>
+                    <li class="breadcrumb-item"><a href="index.htm">Inicio </a></li>
                     <li class="breadcrumb-item active">descripción de áreas</li>
                 </ol></center>
                 <!-- Blog Post-->
@@ -244,7 +253,7 @@
                                     <br>
                                 <p class="card-text">El área de físico-matemático consiste en la aplicación de las matemáticas a problemas del ámbito de la física y el desarrollo de métodos matemáticos apropiados para estos usos y para el desarrollo de conocimientos físicos.</p>
                                 <br>
-                                <button type="button" class="btn btn-outline-success" href="blog-home-1.html">Comienza Ahora!!! →</a></center></button>
+                                <button type="button" class="btn btn-outline-success" href="area1.htm">Comienza Ahora!!! →</a></center></button>
                             </div>
                         </div>
                     </div>
@@ -266,7 +275,7 @@
                                 <br>
                                 <p class="card-text">dedicadas principalmente a resguardar y analizar el acervo cultural de la humanidad, además de producir manifestaciones artísticas de todas las disciplinas: artes plásticas, danza, teatro, literatura y música. </p>
                                 <br>
-                                <button type="button" class="btn btn-outline-success" href="blog-home-1.html">Comienza Ahora!!! →</a></center></button>
+                                <button type="button" class="btn btn-outline-success" href="artes.htm">Comienza Ahora!!! →</a></center></button>
                             </div>
                         </div>
                     </div>
@@ -288,7 +297,7 @@
                                 <br>
                                 <p class="card-text">El área 3 del conocimiento abarca todas las ciencias naturales. Involucra el estudio de los seres vivos, sus cambios y procesos. Adicionalmente, involucra temas en materia de salud de los mismos, es decir, enfermedades, padecimientos y soluciones de mejora.</p>
                                 <br>
-                                <button type="button" class="btn btn-outline-success" href="blog-home-1.html">Comienza Ahora!!! →</a></button></center>
+                                <button type="button" class="btn btn-outline-success" href="area2.htm">Comienza Ahora!!! →</a></button></center>
                             </div>
                         </div>
                     </div>
@@ -310,7 +319,7 @@
                                 <br>
                                 <p class="card-text">Las ciencias sociales son las ramas de la ciencia relacionadas con la sociedad y el comportamiento humano. Se las distingue de las ciencias naturales y de las ciencias formales. Además, es una denominación genérica para las disciplinas o campos del saber que analizan y tratan distintos aspectos de las relaciones sociales y los grupos de personas que componen la sociedad. </p>
                                 <br>
-                                <button type="button" class="btn btn-outline-success" href="blog-home-1.html">Comienza Ahora!!! →</a></center></button>
+                                <button type="button" class="btn btn-outline-success" href="sociales.htm">Comienza Ahora!!! →</a></center></button>
                             </div>
                         </div>
                     </div>
@@ -340,10 +349,6 @@
             <br>
             <br>
         </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+       
     </body>
 </html>

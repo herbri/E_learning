@@ -13,6 +13,10 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>E-Learning - B1 Soft</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -30,16 +34,19 @@
         max-height: 200px;
         }</style>
     </head>
-    <body background="Imagen2.jpeg">
+    
+    <body background="<%=request.getContextPath()%>/e_learning/src/main/webapp/WEB-INF/resources/images/Imagen2.jpeg">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="B1_Soft_Blanco_con_Sombra.png" width="130px" height="30"> </a>
+                <a class="navbar-brand" href="index.htm">
+                    <img src="<%=request.getContextPath()%>/e_learning/src/main/webapp/WEB-INF/resources/images/B1_Soft_Blanco_con_Sombra.png" width="130px" height="30"></img> 
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="login.html">
+                            <a class="nav-link" href="login.htm">
                                 Iniciar sesión
                                 <span class="sr-only">(current)</span>
                             </a>
@@ -55,7 +62,7 @@
             <header class="jumbotron my-4">
                 <h1 class="display-3">Bienvenido</h1>
                 <p class="lead">A tu plataforma de aprendizaje proporcionada por B1 Soft Latam</p>
-                <a class="btn btn-primary btn-lg" href="registrodefinitvo.html">Registrate aquí !</a>
+                <a class="btn btn-primary btn-lg" href="registros.htm">Registrate aquí !</a>
             </header>
             <!-- Page Features-->
             <div class="row text-center">

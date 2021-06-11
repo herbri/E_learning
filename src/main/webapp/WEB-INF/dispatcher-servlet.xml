@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:aop="http://www.springframework.org/schema/aop"
@@ -29,16 +30,18 @@
             <props>
                 <prop key="index.htm">IndexController</prop>
                 <prop key="indexprof.htm">IndexProfController</prop>
+                <prop key="indexusu.htm">IndexUsuController</prop>
                 <prop key="area1.htm">Area1Controller</prop>
                 <prop key="area2.htm">Area2Controller</prop>
                 <prop key="areas.htm">AreasController</prop>
+                <prop key="areasgeneral.htm">AreasGeneralController</prop>
                 <prop key="artes.htm">ArtesController</prop>
                 <prop key="cursoprincipal.htm">CursoPrincipalController</prop>
                 <prop key="cursos.htm">CursosController</prop>
                 <prop key="examen.htm">ExamenController</prop>
                 <prop key="login.htm">LoginController</prop>
                 <prop key="perfilalumno.htm">PerfilAlumnoController</prop>
-                <prop key="perfilmaestro.htm">PerfilMaestroController</prop>
+                <prop key="perfilinstructor.htm">PerfilInstructorController</prop>
                 <prop key="recuperarcontraseña.htm">RecuperarContraseñaController</prop>
                 <prop key="registros.htm">RegistrosController</prop>
                 <prop key="sociales.htm">SocialesController</prop>
@@ -59,18 +62,24 @@
     -->
     <bean name="IndexController" class="com.b1soft.e_learning.controllers.IndexController"/>
     <bean name="IndexProfController" class="com.b1soft.e_learning.controllers.IndexProfController"/>
+    <bean name="IndexUsuController" class="com.b1soft.e_learning.controllers.IndexUsuController"/>
     <bean name="Area1Controller" class="com.b1soft.e_learning.controllers.Area1Controller"/>
     <bean name="Area2Controller" class="com.b1soft.e_learning.controllers.Area2Controller"/>
     <bean name="AreasController" class="com.b1soft.e_learning.controllers.AreasController"/>
+    <bean name="AreasGeneralController" class="com.b1soft.e_learning.controllers.AreasGeneralController"/>
     <bean name="ArtesController" class="com.b1soft.e_learning.controllers.ArtesController"/>
     <bean name="CursoPrincipalController" class="com.b1soft.e_learning.controllers.CursoPrincipalController"/>
     <bean name="CursosController" class="com.b1soft.e_learning.controllers.CursosController"/>
     <bean name="ExamenController" class="com.b1soft.e_learning.controllers.ExamenController"/>
     <bean name="LoginController" class="com.b1soft.e_learning.controllers.LoginController"/>
+    <bean name="LoginProfController" class="com.b1soft.e_learning.controllers.LoginProfController"/>
     <bean name="PerfilAlumnoController" class="com.b1soft.e_learning.controllers.PerfilAlumnoController"/>
-    <bean name="PerfilMaestroController" class="com.b1soft.e_learning.controllers.PerfilMaestroController"/>
+    <bean name="PerfilInstructorController" class="com.b1soft.e_learning.controllers.PerfilInstructorController"/>
     <bean name="RecuperarContraseñaController" class="com.b1soft.e_learning.controllers.RecuperarContraseñaController"/>
     <bean name="RegistrosController" class="com.b1soft.e_learning.controllers.RegistrosController"/>
     <bean name="SocialesController" class="com.b1soft.e_learning.controllers.SocialesController"/>
     <bean name="TestController" class="com.b1soft.e_learning.controllers.TestController"/>
+    
+    
+    
 </beans>
