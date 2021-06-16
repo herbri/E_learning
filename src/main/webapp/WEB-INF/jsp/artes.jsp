@@ -86,7 +86,7 @@ background: linear-gradient(352deg, rgba(227,10,211,1) 0%, rgba(39,4,145,1) 44%,
                 background: linear-gradient(to bottom,  rgba(0,97,163,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#910061a3', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
                 ">
-                    <li class="breadcrumb-item"><a href="index.htm"><font color="white">Area 4</font></a></li>
+                    <li class="breadcrumb-item"><a href="areasgeneral.htm"><font color="white">Area 4</font></a></li>
                     <li class="breadcrumb-item active"><font color="white">Categorias</font> </li>
                 </ol>
                 <div class="row">
