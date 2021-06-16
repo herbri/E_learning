@@ -202,7 +202,7 @@
                                 <br/>
                                  <a class="btn btn-lg btn-primary btn-block text-uppercase" href="indexusu.htm"> Ingresar</a>
                                   <a class="btn btn-lg btn-primary btn-block text-uppercase" href="recuperarcontraseña.htm"> Olvide mi contraseña </a>
-                                 <a class="btn btn-lg btn-primary btn-block text-uppercase" href="login.htm"> Da click aqui si eres Instructor</a>
+                                 <a class="btn btn-lg btn-primary btn-block text-uppercase" href="loginprof.htm"> Da click aqui si eres Instructor</a>
                                  
                             </form>
                             <small class="d-inline-block text-muted mt-5">Todos los derechos reservados | © 2021 B1 SOFT</small>
