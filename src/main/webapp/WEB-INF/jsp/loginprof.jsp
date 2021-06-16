@@ -200,7 +200,7 @@
                                     <label class="custom-control-label" for="customCheck1">Recordar mi Contraseña</label>
                                 </div>
                                 <br/>
-                               <a class="btn btn-lg btn-primary btn-block text-uppercase" href="indexusu.htm"> Ingresar</a>
+                               <a class="btn btn-lg btn-primary btn-block text-uppercase" href="indexprof.htm"> Ingresar</a>
                                   <a class="btn btn-lg btn-primary btn-block text-uppercase" href="recuperarcontraseña.htm"> Olvide mi contraseña </a>
                                  <a class="btn btn-lg btn-primary btn-block text-uppercase" href="login.htm"> Da click aqui si eres Usuario</a>
                              
