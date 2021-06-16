@@ -30,36 +30,39 @@
         <link href="css/styles.css" rel="stylesheet" />
 
         <!--cambiar el color de fondo a la barra -->
+         <!--cambiar el color de fondo a la barra -->
         <style>.navbar {background-color:#3A85F3 !important;}</style>
 
         <!--cambiar el color de fondo a la barra -->
         <style>.Footer {background-color:#3A85F3 !important;
-                 max-height: 200px;
-            }</style>
+        max-height: 200px;
+        }</style>
         <style>
             body {
-                Background-position: center center;
-                Background-repeat: no-repeat;
-                Background-attachment: fixed;
-                Background-size: cover;
-
-            }</style>
+            Background-position: center center;
+            Background-repeat: no-repeat;
+            Background-attachment: fixed;
+            Background-size: cover;
+             background-image: url("piza.jpg");
+        }</style>
     </head>
-    <body background="fondo6.jpeg">
+    <body class="body">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.htm"><img src="B1_Soft_Blanco_con_Sombra.png" width="130px" height="30"> </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand" href="#!"><img src="B1_Soft_Negro_con_Sombra.png" width="130px" height="30"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="login.htm">
-                                Mi perfil
-                                <span class="sr-only">(current)</span>
-                            </a>
+                                               <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="#ffffff">Mi Cuenta</font></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
+                                <a class="dropdown-item" href="indexprof.htm">Inicio </a>
+                                <a class="dropdown-item" href="PerfilInstructor.htm">Mi Perfil</a>
+                                <a class="dropdown-item" href="index.htm">Cerrar Sesión</a>
+                                
+                            </div>
                         </li>
-
                     </ul>
                 </div>
             </div>
@@ -67,33 +70,33 @@
         <!-- Page Content-->
         <div class="container">
             <!-- Jumbotron Header-->
-            <header class="jumbotron my-4">
+           <center> <header class="jumbotron my-4">
                 <h1 class="display-3">Bienvenido</h1>
                 <p class="lead">Instructor de B1 Soft, en este apartado podras crear tus cursos y modificarlos.</p>
-
-            </header>
+                
+            </header></center>
             <!-- Page Features-->
-
-
-            <div class="row text-center">
-                <div class="col-lg-3 col-md-6 mb-4">
+        
+            
+            <center><div class="row text-center">
+                    <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card h-100">
                         <img class="card-img-top" src="area-1.png" alt="..." />
                         <div class="card-body">
                             <h4 class="card-title">Iniciar nuevo curso</h4>
                             <p class="card-text">Aquí podrar crear un nuevo curso desde cero. </p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary" href="#!">Más información</a></div>
+                        <div class="card-footer"><a class="btn btn-primary" href="cursos.html">Ir A</a></div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <div class="card h-100">
                         <img class="card-img-top" src="editar.jpeg" alt="..." />
                         <div class="card-body">
-                            <h4 class="card-title">Editar cursos</h4>
-                            <p class="card-text">Aquí podras modificar detalles de tu curso.</p>
+                            <h4 class="card-title">Crear un Nuevo Test</h4>
+                            <p class="card-text">Aquí podras Crear, modificar o eliminar tus test.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary" href="#!">Más información</a></div>
+                        <div class="card-footer"><a class="btn btn-primary" href="examen.htm">Ir A</a></div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
@@ -103,13 +106,24 @@
                             <h4 class="card-title">Eliminar curso</h4>
                             <p class="card-text">Aquí podras eliminar un curso.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary" href="#!">Más información</a></div>
+                        <div class="card-footer"><a class="btn btn-primary" href="cursos.htm">Ir A</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="cerrar.png"  width="300px" height="190px" />
+                        <div class="card-body">
+                            <h4 class="card-title">Cerrar Sesión</h4>
+                            <p class="card-text">¿Estas seguro de cerrar sesión?.</p>
+                        </div>
+                        <div class="card-footer"><a class="btn btn-primary" href="index.htm">Ir A</a></div>
                     </div>
                 </div>
             </div>
+            </center>
         </div>
-
-
+       
+        
         <!-- Footer-->
         <br><br><br><br><br><footer class="Footer">
             <div class="container"><br><p class="m-0 text-center text-white">Todos los derechos reservados | © 2021 B1 SOFT</p><br></div>
