@@ -30,137 +30,174 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <style>
-            .nav{background:#3A85F3}
-            body{
-                background: rgb(42,34,195);
-                background: linear-gradient(0deg, rgba(42,34,195,1) 21%, rgba(253,45,45,1) 100%);
-            }
-        </style>
+		.navbar{background:#3A85F3 !important;}
+		body{
+background: rgb(42,34,195);
+background: linear-gradient(0deg, rgba(42,34,195,1) 21%, rgba(253,45,45,1) 100%);
+}
+.Footer {background-color:#3A85F3 !important;
+        max-height: 200px;
+        }
+		</style>
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="nav">
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.htm"><font color="#ffffff">B1 Soft Latinoamerica </font></a>
-                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" data-toggle="dropdown" aria-haspopup="true" ><font color="#FFFFFF">Mi Usuario</font></a>
-                <ul class="navbar-nav ml-auto">
-                    <div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
-                        <a class="dropdown-item" href="indexusu.htm">Inicio</a>
-                        <a class="dropdown-item" href="perfilalumno.htm">Mi Perfil</a>
-                        <a class="dropdown-item" href="index.htm">Cerrar Sesión</a>
-
+                <a class="navbar-brand" href="#!"><img src="B1_Soft_Negro_con_Sombra.png" width="130px" height="30"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                                               <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="#ffffff">Mi Cuenta</font></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
+                                <a class="dropdown-item" href="indexusu.htm">Inicio </a>
+                                <a class="dropdown-item" href="perfilalumno.htm">Mi Perfil</a>
+                                <a class="dropdown-item" href="index.htm">Cerrar Sesión</a>
+                                
+                            </div>
                         </li>
-                </ul>
-            </div>
-            <div class="navbar-collapse" id="navbarResponsive">
-            </div>
-
-        </div>       
-    </nav>
-    <!-- Page Content-->
-    <section class="py-5">
-        <div class="container">
-            <!-- Page Heading/Breadcrumbs-->
-            <h1><font color="white">Área 1 Físico Matemáticas </font></h1>
-            <ol class="breadcrumb mb-4">
-                <li class="breadcrumb-item"><a href="index.htm">Área 1</a></li>
-                <li class="breadcrumb-item active">Categorias</li>
-            </ol>
-            <div class="row">
-                <!-- Blog Entries Column-->
-                <div class="col-md-8">
-                    <!-- Blog Post-->
-                    <div class="card mb-4">
-                        <iframe width="730" height="315" src="https://www.youtube.com/embed/8BZp6Of6KK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h2 class="card-title">Programación</h2>
-                            <p class="card-text">En este apartado encontraras ayuda sobre el como codificar, orientarte en lenguajes y cursos con certificado.</p>
-                            <a class="btn btn-primary" href="#!">Ir a</a>
-                        </div>
-                        <div class="card-footer text-muted">
-
-
-                        </div>
-                    </div>
-                    <!-- Blog Post-->
-                    <div class="card mb-4">
-                        <iframe width="730" height="315" src="https://www.youtube.com/embed/9tSNNazCjnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h2 class="card-title">Matematicas</h2>
-                            <p class="card-text">En este apartado encotraras un apartado de matematicas en donde se te asesorara en matematicas, algebra, aritmetica, tec.</p>
-                            <a class="btn btn-primary" href="#!">Read More →</a>
-                        </div>
-                        <div class="card-footer text-muted">
-
-                        </div>
-                    </div>
-                    <!-- Blog Post-->
-                    <div class="card mb-4">
-                        <iframe width="730" height="315" src="https://www.youtube.com/embed/IfjPkQPxWMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h2 class="card-title">Fisica</h2>
-                            <p class="card-text">En este apartado encontraras temas de fisica, hidrostatica, presion barometrica y más.</p>
-                            <a class="btn btn-primary" href="#!">Read More →</a>
-                        </div>
-                        <div class="card-footer text-muted">
-
-                        </div>
-                    </div>
-                    <!-- Pagination-->
-                    <ul class="pagination justify-content-center mb-4">
-                        <!-- <li class="page-item"><a class="page-link" href="#!"></a></li>-->
-                        <li class="page-item disabled"><a class="page-link" href="#!">Siguiente →</a></li>
                     </ul>
                 </div>
-                <!-- Sidebar Widgets Column-->
-                <div class="col-md-4">
-                    <!-- Search Widget-->
-                    <div class="card mb-4">
-                        <h5 class="card-header">Search</h5>
-                        <div class="card-body">
-                            <div class="input-group">
-                                <input class="form-control" type="text" placeholder="Search for..." />
-                                <span class="input-group-append"><button class="btn btn-secondary" type="button">Go!</button></span>
+            </div>
+        </nav>
+                <div class="navbar-collapse" id="navbarResponsive">
+                </div>
+            
+</div>       
+ </nav>
+        <!-- Page Content-->
+        <section class="py-5">
+            <div class="container">
+                <!-- Page Heading/Breadcrumbs-->
+                <h1><font color="white">Área 1 Físico Matemáticas </font></h1>
+                <ol class="breadcrumb mb-4" style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.57+0,0+100 */
+                background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */">
+                    <li class="breadcrumb-item"><a href="areasgeneral.htm"><font color="#ffffff">Área 1</font></a></li>
+                    <li class="breadcrumb-item active"><font color="#ffffff">Categorias</font></li>
+                </ol>
+                <div class="row">
+                    <!-- Blog Entries Column-->
+                    <div class="col-md-8">
+                        <!-- Blog Post-->
+                        <div class="card mb-4" style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.57+0,0+100 */
+                        background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */">
+                            <iframe width="730" height="315" src="https://www.youtube.com/embed/8BZp6Of6KK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body"><font color="#ffffff">
+                                <h2 class="card-title">Programación</h2>
+                                <p class="card-text">En este apartado encontraras ayuda sobre el como codificar, orientarte en lenguajes y cursos con certificado.</p>
+                                <a class="btn btn-primary" href="programacion.htm">Ir a</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                               
+                             
+                            </div></font>
+                        </div>
+                        <!-- Blog Post-->
+                        <div class="card mb-4"  style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.57+0,0+100 */
+                        background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */">
+
+                            <iframe width="730" height="315" src="https://www.youtube.com/embed/9tSNNazCjnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body"><font color="#ffffff">
+                                <h2 class="card-title">Matemáticas</h2>
+                                <p class="card-text">En este apartado encotraras un apartado de matematicas en donde se te asesorara en matematicas, algebra, aritmetica, tec.</p>
+                                <a class="btn btn-primary" href="matematicas.htm">Ir a.</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                               
+                            </div></font>
+                        </div>
+                        <!-- Blog Post-->
+                        <div class="card mb-4"  style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.57+0,0+100 */
+                        background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */">
+                          <iframe width="730" height="315" src="https://www.youtube.com/embed/IfjPkQPxWMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body"><font color="#ffffff">
+                                <h2 class="card-title">Fisica</h2>
+                                <p class="card-text">En este apartado encontraras temas de fisica, hidrostatica, presion barometrica y más.</p>
+                                <a class="btn btn-primary" href="fisica.htm">Ir a.</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                               
+                            </div></font>
+                        </div>
+                        <!-- Pagination-->
+                        <ul class="pagination justify-content-center mb-4">
+                           <!-- <li class="page-item"><a class="page-link" href="#!"></a></li>-->
+                            <li class="page-item disabled"><a class="page-link" href="#!">Siguiente →</a></li>
+                        </ul>
+                    </div>
+                    <!-- Sidebar Widgets Column-->
+                    <div class="col-md-4">
+                        <!-- Search Widget-->
+                        <div class="card mb-4"  style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.57+0,0+100 */
+                        background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */">
+
+                            <h5 class="card-header"><font color="#ffffff">Búsqueda</font></h5>
+                            <div class="card-body">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="Search for..." />
+                                    <span class="input-group-append"><button class="btn btn-secondary" type="button">Go!</button></span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Categories Widget-->
-                    <div class="card mb-4">
-                        <h5 class="card-header">Categories</h5>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Web Design</a></li>
-                                        <li><a href="#!">HTML</a></li>
-                                        <li><a href="#!">Freebies</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">JavaScript</a></li>
-                                        <li><a href="#!">CSS</a></li>
-                                        <li><a href="#!">Tutorials</a></li>
-                                    </ul>
+                        <!-- Categories Widget-->
+                        <div class="card mb-4"  style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.57+0,0+100 */
+                        background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */">
+
+                            <h5 class="card-header"><font color="#ffffff">Categorías</font></h5>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-6"><font color="#ffffff">
+                                        <ul class="list-unstyled mb-0">
+                                            <li><a href="#!">Web Design</a></li>
+                                            <li><a href="#!">HTML</a></li>
+                                            <li><a href="#!">Freebies</a></li>
+                                        </ul>
+                                    </div></font>
+                                    <div class="col-lg-6"><font color="#ffffff">
+                                        <ul class="list-unstyled mb-0">
+                                            <li><a href="#!">JavaScript</a></li>
+                                            <li><a href="#!">CSS</a></li>
+                                            <li><a href="#!">Tutorials</a></li>
+                                        </ul>
+                                    </div></font>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Side Widget-->
-                    <div class="card">
-                        <h5 class="card-header">Area 1 Fisico Matematicas</h5>
-                        <div class="card-body">Apartado de Area 1</div>
+                        <!-- Side Widget-->
+                        <div class="card"  style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.57+0,0+100 */
+                        background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */">
+                            <h5 class="card-header"><font color="#ffffff">Área 1 Físico-Matemáticas</h5></font>
+                            <div class="card-body"><font color="#ffffff">El área de físico-matemático consiste en la aplicación de las matemáticas a problemas del ámbito de la física y el desarrollo de métodos matemáticos apropiados para estos usos y para el desarrollo de conocimientos físicos.</div></font>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Footer-->
-    <footer class="nav">
-        <div class="container"><br><p class="m-0 text-center text-white">Copyright B1 SOFT 2021</p><br></div>
-
-    </footer>
-
+        </section>
+        <!-- Footer-->
+        <footer class="Footer"><br>
+            <div class="container"><p class="m-0 text-center text-white">Todos los derechos reservados | © 2021 B1 SOFT</p></div><br>
+        </footer>
 </body>
 </html>
