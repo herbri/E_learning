@@ -30,7 +30,6 @@
         <link href="css/styles.css" rel="stylesheet" />
 
         <!--cambiar el color de fondo a la barra -->
-         <!--cambiar el color de fondo a la barra -->
         <style>.navbar {background-color:#3A85F3 !important;}</style>
 
         <!--cambiar el color de fondo a la barra -->
@@ -59,6 +58,8 @@
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
                                 <a class="dropdown-item" href="indexprof.htm">Inicio </a>
                                 <a class="dropdown-item" href="PerfilInstructor.htm">Mi Perfil</a>
+                                  <a class="dropdown-item" href="cursos.htm">Mis Cursos</a>
+                                    <a class="dropdown-item" href="examen.htm">Mis test</a>
                                 <a class="dropdown-item" href="index.htm">Cerrar Sesión</a>
                                 
                             </div>
@@ -86,7 +87,7 @@
                             <h4 class="card-title">Iniciar nuevo curso</h4>
                             <p class="card-text">Aquí podrar crear un nuevo curso desde cero. </p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary" href="cursos.html">Ir A</a></div>
+                        <div class="card-footer"><a class="btn btn-primary" href="cursos.htm">Ir A</a></div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
@@ -128,6 +129,5 @@
         <br><br><br><br><br><footer class="Footer">
             <div class="container"><br><p class="m-0 text-center text-white">Todos los derechos reservados | © 2021 B1 SOFT</p><br></div>
         </footer>
-
     </body>
 </html>
