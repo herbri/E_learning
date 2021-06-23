@@ -5,10 +5,13 @@
  */
 package com.b1soft.e_learning.service;
 
+import javax.servlet.http.HttpServletRequest;
+
+
 /**
  *
  * @author Jose
  */
-public class InstructorService {
-    
+public interface InstructorService {
+    public String crearInstructor(HttpServletRequest request);
 }

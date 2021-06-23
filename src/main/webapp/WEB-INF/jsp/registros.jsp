@@ -409,17 +409,37 @@
                                         <div class="login">
                                             <br>
                                             <br>
-                                            <div class="group"> <label for="user" class="label">Nombre</label> <input id="user" type="text" class="input" placeholder="Ingrea tu nombre"> </div>
+                                            <form id="" method="POST">
+                                            <div class="group"> 
+                                                <label for="user" class="label">Nombre</label> 
+                                                <input id="user" type="text" name="nombres" class="input" placeholder="Ingrea tu nombre"> 
+                                            </div>
                                             <br>
-                                            <div class="group"> <label for="user" class="label">Apellidos</label> <input id="" type="text" class="input" placeholder="Ingresa tus apellidos"> </div>
+                                            <div class="group"> 
+                                                <label for="user" class="label">Apellidos</label> 
+                                                <input id="" type="text" name="apellidos" class="input" placeholder="Ingresa tus apellidos"> 
+                                            </div>
                                             <br>
-                                            <div class="group"> <label for="user" class="label">Edad</label> <input id="" type="text" class="input" placeholder="Ingresa tú edad"> </div>
+                                            <div class="group"> 
+                                                <label for="user" class="label">Edad</label> 
+                                                <input id="" type="number" name="edad" class="input" placeholder="Ingresa tú edad"> 
+                                            </div>
                                             <br>
-                                            <div class="group"> <label for="user" class="label">Correo Electronico</label> <input id="" type="text" class="input"  placeholder="Ingresa tu Correo Electronico"> </div>
+                                            <div class="group"> 
+                                                <label for="user" class="label">Correo Electronico</label> 
+                                                <input id="" type="text" name="email" class="input"  placeholder="Ingresa tu Correo Electronico"> 
+                                            </div>
                                             <br>
-                                            <div class="group"> <label for="pass" class="label">Contraseña</label> <input id="pass" type="text" class="input" data-type="password" placeholder="Contraseña"> </div>
+                                            <div class="group"> 
+                                                <label for="pass" class="label">Contraseña</label> 
+                                                <input id="pass" type="text" name="password" class="input" data-type="password" placeholder="Contraseña"> 
+                                            </div>
                                             <br>
-                                            <div class="group"> <label for="pass" class="label">Confirmar Contraseña</label> <input id="pass" type="password" class="input" data-type="password" placeholder="Confirma tu contraseña"> </div>
+                                            <div class="group"> 
+                                                <label for="pass" class="label">Confirmar Contraseña</label> 
+                                                <input id="pass" type="password" name="confirmpassword" class="input" data-type="password" placeholder="Confirma tu contraseña"> 
+                                            </div>
+                                            </form>
                                             <br>
                                             <div class="hr"></div>
                                             <br>
@@ -427,21 +447,52 @@
                                             <div class="group"> <a href="login.htm"><input type="submit" class="button" value="Registrar"> </a> </div>
 
                                         </div>
-
+                                                   
                                         <div class="sign-up-form">
-                                            <div class="group"> <label for="user" class="label">Nombre</label> <input id="user" type="text" class="input" placeholder="Ingrea tu nombre"> </div>
-                                            <div class="group"> <label for="user" class="label">Apellidos</label> <input id="" type="text" class="input" placeholder="Ingresa tus apellidos"> </div>
-                                            <div class="group"> <label for="user" class="label">Edad</label> <input id="pass" type="text" class="input" placeholder="Ingresa tu Edad"> </div>
-                                            <div class="group"> <label for="user" class="label">Correo Electronico</label> <input id="pass" type="text" class="input" placeholder="Ingrea tu Correo"> </div>
-                                            <div class="group"> <label for="pass" class="label">Contraseña</label> <input id="user" type="text" class="input" placeholder="Ingrea tu Contraseña" data-type="password"> </div>
-                                            <div class="group"> <label for="pass" class="label">Confirmar Contraseña</label> <input id="pass" type="text" class="input"  placeholder="Confirma tu Contraseña" data-type="password"> </div>
-                                            <div class="group"> <label for="user" class="label">Grado de Estudios</label> <input id="pass" type="text" class="input" placeholder="Ingresa tu Grado de Estudios"> </div>
-                                            <div class="group"> <label for="user" class="label">Especialidad</label> <input id="pass" type="text" class="input" placeholder="Ingresa tu Especialidad"> </div>
-                                            <div class="group"> <label for="user" class="label">Cedula Profesional</label> <input id="user" type="text" class="input" placeholder="Ingresa tu Cedula Profesional"> </div>
-                                            <div class="group"> <label for="user" class="label">Telefono</label> <input id="pass" type="text" class="input"  placeholder="Ingresa tu Celular"> </div>
+                                            <form id="RegInstructor" action="registros.htm" method="POST" >
+                                            <div class="group"> 
+                                               
+                                                <label for="user" class="label">Nombre</label> 
+                                                <input id="user" type="text" name="Nombres" class="input" placeholder="Ingresa tu nombre"> 
+                                            </div>
+                                            <div class="group"> 
+                                                <label for="user" class="label">Apellidos</label> 
+                                                <input id="" type="text" name="Apellidos" class="input" plApellidos"aceholder="Ingresa tus apellidos"> 
+                                            </div>
+                                            <div class="group"> 
+                                                <label for="user" class="label">Edad</label> 
+                                                <input id="pass" type="number" name="Edad" class="input" placeholder="Ingresa tu Edad"> 
+                                            </div>
+                                            <div class="group"> 
+                                                <label for="user" class="label">Grado de Estudios</label> 
+                                                <input id="pass" type="text" name="GradoEstudios" class="input" placeholder="Ingresa tu Grado de Estudios"> 
+                                            </div>
+                                            <div class="group"> 
+                                                <label for="user" class="label">Especialidad</label> 
+                                                <input id="pass" type="text" name="Especialidad" class="input" placeholder="Ingresa tu Especialidad"> 
+                                            </div>
+                                            <div class="group"> 
+                                                <label for="user" class="label">Cedula Profesional</label> 
+                                                <input id="user" type="text" name="Cedula" class="input" placeholder="Ingresa tu Cedula Profesional"> 
+                                            </div>
+                                            <div class="group"> 
+                                                <label for="user" class="label">Correo Electronico</label> 
+                                                <input id="pass" type="text" name="Email" class="input" placeholder="Ingresa tu Correo"> 
+                                            </div>
+                                            <div class="group"> 
+                                                <label for="pass" class="label">Contraseña</label> 
+                                                <input id="user" type="text" name="Password" class="input" placeholder="Ingresa tu Contraseña" data-type="password"> 
+                                            </div>
+                                            <div class="group"> 
+                                                <label for="pass" class="label">Confirmar Contraseña</label> 
+                                                <input id="pass" type="text" name="ConfirmPassword" class="input"  placeholder="Confirma tu Contraseña" data-type="password"> 
+                                            </div>                                           
                                             <br>
                                             <div class="group"> <a href="loginprof.htm"><input type="submit" class="button" value="Registrar"> </a></div>
-
+                                            
+                                            
+                                            
+                                            </form>
                                         </div>
                                     </div>
                             </div>

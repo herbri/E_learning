@@ -16,8 +16,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="certificado")
 public class Certificado implements Serializable{
-    @Id
-    private int id_certificado;
+    @Id private int id_certificado;
     private int usuario;
     private int instructor;
     private int curso;

@@ -123,5 +123,9 @@ public class Instructor implements Serializable {
     public void setConfirmpassword(String confirmpassword) {
         this.confirmpassword = confirmpassword;
     }
+
+    public void setId_instructor(String id) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
   
 }

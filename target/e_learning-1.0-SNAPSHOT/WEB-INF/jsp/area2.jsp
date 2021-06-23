@@ -30,141 +30,171 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <style>
-        .nav{background:#3A85F3}
-        body{
+		.navbar{background:#3A85F3 !important;}
+		body{
 background: rgb(185,201,236);
 background: linear-gradient(0deg, rgba(185,201,236,1) 0%, rgba(49,191,0,1) 100%);
 }
-        </style>
-
+.Footer {background-color:#3A85F3 !important;
+        max-height: 200px;
+        }
+		</style>
+		
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="nav">
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.htm"><font color="#ffffff">B1 Soft Latinoamerica </font></a>
-                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" data-toggle="dropdown" aria-haspopup="true" ><font color="#FFFFFF">Mi Usuario</font></a>
-                <ul class="navbar-nav ml-auto">
-                    <div class="dropdown-menu dropdown-menu" aria-labelledby="navbarDropdownPortfolio">
-                        <a class="dropdown-item" href="indexusu.htm">Inicio</a>
-                        <a class="dropdown-item" href="perfilalumno.htm">Mi Perfil</a>
-                        <a class="dropdown-item" href="index.htm">Cerrar Sesión</a>
-
+                <a class="navbar-brand" href="#!"><img src="B1_Soft_Negro_con_Sombra.png" width="130px" height="30"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                                               <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><font color="#ffffff">Mi Cuenta</font></a>
+                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
+                                <a class="dropdown-item" href="indexusu.htm">Inicio </a>
+                                <a class="dropdown-item" href="perfilalumno.htm">Mi Perfil</a>
+                                <a class="dropdown-item" href="index.htm">Cerrar Sesión</a>
+                                
+                            </div>
                         </li>
-                </ul>
-            </div>
-            <div class="navbar-collapse" id="navbarResponsive">
-            </div>
-
-        </div>       
-    </nav>
-    <!-- Page Content-->
-    <section class="py-5">
-        <div class="container">
-            <!-- Page Heading/Breadcrumbs-->
-            <h1><font color="#ffffff">Área 2 Médico Biológicas </font></h1>
-            <ol class="breadcrumb mb-4">
-                <li class="breadcrumb-item"><a href="index.htm">Area 2</a></li>
-                <li class="breadcrumb-item active">Categorias</li>
-            </ol>
-            <div class="row">
-                <!-- Blog Entries Column-->
-                <div class="col-md-8">
-                    <!-- Blog Post-->
-                    <div class="card mb-4">
-                        <iframe width="730" height="315" src="https://www.youtube.com/embed/VFCO8WkjLkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h2 class="card-title">Química</h2>
-                            <p class="card-text">La química es la ciencia que estudia la composición, estructura y propiedades de la materia, así como los cambios que esta experimenta durante las reacciones químicas y su relación con la energía</p>
-                            <a class="btn btn-primary" href="#!">Ir a</a>
-                        </div>
-                        <div class="card-footer text-muted">
-
-
-                        </div>
-                    </div>
-                    <!-- Blog Post-->
-                    <div class="card mb-4">
-                        <iframe width="730" height="315" src="https://www.youtube.com/embed/83yXAydbIzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h2 class="card-title">Biológia</h2>
-                            <p class="card-text">La biología se ocupa tanto de la descripción de las características y los comportamientos de los organismos individuales, como de las especies en su conjunto.</p>
-                            <a class="btn btn-primary" href="#!">Ir a</a>
-
-                        </div>
-                        <div class="card-footer text-muted">
-
-                        </div>
-                    </div>
-                    <!-- Blog Post-->
-                    <div class="card mb-4">
-                        <iframe width="730" height="315" src="https://www.youtube.com/embed/9tSNNazCjnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <div class="card-body">
-                            <h2 class="card-title">Matemáticas</h2>
-                            <p class="card-text">En este apartado encotraras un apartado de matematicas en donde se te asesorara en matematicas, algebra, aritmetica, tec.</p>
-                            <a class="btn btn-primary" href="#!">Ir a</a>
-
-                        </div>
-                        <div class="card-footer text-muted">
-
-                        </div>
-                    </div>
-                    <!-- Pagination-->
-                    <ul class="pagination justify-content-center mb-4">
-                        <!-- <li class="page-item"><a class="page-link" href="#!"></a></li>-->
-                        <li class="page-item disabled"><a class="page-link" href="#!">Siguiente →</a></li>
                     </ul>
                 </div>
-                <!-- Sidebar Widgets Column-->
-                <div class="col-md-4">
-                    <!-- Search Widget-->
-                    <div class="card mb-4">
-                        <h5 class="card-header">Search</h5>
-                        <div class="card-body">
-                            <div class="input-group">
-                                <input class="form-control" type="text" placeholder="Search for..." />
-                                <span class="input-group-append"><button class="btn btn-secondary" type="button">Go!</button></span>
+            </div>
+        </nav>
+                <div class="navbar-collapse" id="navbarResponsive">
+                </div>
+            
+</div>       
+ </nav>
+        <!-- Page Content-->
+        <section class="py-5">
+            <div class="container">
+                <!-- Page Heading/Breadcrumbs-->
+                <h1><font color="#ffffff">Área 2 Médico Biológicas </font></h1>
+                <ol class="breadcrumb mb-4" style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0061a3+0,000000+100&0.57+0,0+100 */
+                background: -moz-linear-gradient(top,  rgba(0,97,163,0.57) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+                background: -webkit-linear-gradient(top,  rgba(0,97,163,0.57) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                background: linear-gradient(to bottom,  rgba(0,97,163,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#910061a3', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+                ">
+                    <li class="breadcrumb-item"><a href="areasgeneral.htm"><font color="white">Area 2</font></a></li>
+                    <li class="breadcrumb-item active"><font color="white">Categorias</font></li>
+                </ol>
+                <div class="row">
+                    <!-- Blog Entries Column-->
+                    <div class="col-md-8">
+                        <!-- Blog Post-->
+                        <div class="card mb-4" style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.57+0,0+100 */
+                        background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+                        ">
+                            <iframe width="730" height="315" src="https://www.youtube.com/embed/VFCO8WkjLkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                                <h2 class="card-title"><font color="white">Química</font></h2>
+                                <p class="card-text"><font color="white">La química es la ciencia que estudia la composición, estructura y propiedades de la materia, así como los cambios que esta experimenta durante las reacciones químicas y su relación con la energía</font></p>
+                                <a class="btn btn-primary" href="quimica.htm">Ir a</a>
+                            </div>
+                            <div class="card-footer text-muted">
+                               
+                             
                             </div>
                         </div>
+                        <!-- Blog Post-->
+                        <div class="card mb-4" style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.57+0,0+100 */
+                        background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+                        ">
+                  <iframe width="730" height="315" src="https://www.youtube.com/embed/83yXAydbIzM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="card-body">
+                                <h2 class="card-title"><font color="white">Biológia</font></h2>
+                                <p class="card-text"><font color="white">La biología se ocupa tanto de la descripción de las características y los comportamientos de los organismos individuales, como de las especies en su conjunto.</font></p>
+                                                               <a class="btn btn-primary" href="medico.htm">Ir a</a>
+
+                            </div>
+                            <div class="card-footer text-muted">
+                               
+                            </div>
+                        </div>
+                        <!-- Blog Post-->
+                      
+                        <!-- Pagination-->
+                        <ul class="pagination justify-content-center mb-4">
+                             <!-- <li class="page-item"><a class="page-link" href="#!"></a></li>-->
+                            <li class="page-item disabled"><a class="page-link" href="#!">Siguiente →</a></li>
+                        </ul>
                     </div>
-                    <!-- Categories Widget-->
-                    <div class="card mb-4">
-                        <h5 class="card-header">Categories</h5>
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Odontologia</a></li>
-                                        <li><a href="#!">Desgaste Oseo</a></li>
-                                        <li><a href="#!">Covid19</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6">
-                                    <ul class="list-unstyled mb-0">
-                                        <li><a href="#!">Cuerpo Humano</a></li>
-                                        <li><a href="#!">Quimica</a></li>
-                                        <li><a href="#!">Microbiologia</a></li>
-                                    </ul>
+                    <!-- Sidebar Widgets Column-->
+                    <div class="col-md-4">
+                        <!-- Search Widget-->
+                        <div class="card mb-4" style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.57+0,0+100 */
+                        background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+                        ">
+                            <h5 class="card-header"><font color="white">Search</font></h5>
+                            <div class="card-body">
+                                <div class="input-group">
+                                    <input class="form-control" type="text" placeholder="Search for..." />
+                                    <span class="input-group-append"><button class="btn btn-secondary" type="button">Go!</button></span>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Side Widget-->
-                    <div class="card">
-                        <h5 class="card-header">Area 2 Medico Biologicass</h5>
-                        <div class="card-body">Apartado de Area 2</div>
+                        <!-- Categories Widget-->
+                        <div class="card mb-4" style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,000000+100&0.57+0,0+100 */
+                        background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+                        ">
+                            <h5 class="card-header"><font color="white">Categorias</font></h5>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <ul class="list-unstyled mb-0">
+                                            <li><a href="#!"><font color="white">Odontologia</font></a></li>
+                                            <li><a href="#!"><font color="white">Desgaste Oseo</font></a></li>
+                                            <li><a href="#!"><font color="white">Covid19</font></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6" style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+3,ffffff+7,ffffff+7,ffffff+11&0.57+0,0+35,0+36,0+36 */
+                                    background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(255,255,255,0.52) 3%, rgba(255,255,255,0.46) 7%, rgba(255,255,255,0.39) 11%, rgba(255,255,255,0) 35%, rgba(255,255,255,0) 36%); /* FF3.6-15 */
+                                    background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(255,255,255,0.52) 3%,rgba(255,255,255,0.46) 7%,rgba(255,255,255,0.39) 11%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 36%); /* Chrome10-25,Safari5.1-6 */
+                                    background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(255,255,255,0.52) 3%,rgba(255,255,255,0.46) 7%,rgba(255,255,255,0.39) 11%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 36%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+                                    ">
+                                        <ul class="list-unstyled mb-0">
+                                            <li><a href="#!"><font color="white">Cuerpo Humano</font></a></li>
+                                            <li><a href="#!"><font color="white">Quimica</font></a></li>
+                                            <li><a href="#!"><font color="white">Microbiologia</font></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Side Widget-->
+                        <div class="card" style="/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+3,ffffff+7,ffffff+7,ffffff+11&0.57+0,0+35,0+36,0+36 */
+                        background: -moz-linear-gradient(top,  rgba(255,255,255,0.57) 0%, rgba(255,255,255,0.52) 3%, rgba(255,255,255,0.46) 7%, rgba(255,255,255,0.39) 11%, rgba(255,255,255,0) 35%, rgba(255,255,255,0) 36%); /* FF3.6-15 */
+                        background: -webkit-linear-gradient(top,  rgba(255,255,255,0.57) 0%,rgba(255,255,255,0.52) 3%,rgba(255,255,255,0.46) 7%,rgba(255,255,255,0.39) 11%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 36%); /* Chrome10-25,Safari5.1-6 */
+                        background: linear-gradient(to bottom,  rgba(255,255,255,0.57) 0%,rgba(255,255,255,0.52) 3%,rgba(255,255,255,0.46) 7%,rgba(255,255,255,0.39) 11%,rgba(255,255,255,0) 35%,rgba(255,255,255,0) 36%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#91ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+                        ">
+                            <h5 class="card-header"><font color="white">Area 2 Medico Biologicass</font></h5>
+                            <div class="card-body"><font color="white">Apartado de Area 2</font></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Footer-->
-    <footer class="nav">
-        <div class="container"><br><p class="m-0 text-center text-white">Copyright B1 SOFT 2021</p><br></div>
-
-    </footer>
-    
+        </section>
+       <!-- Footer-->
+        <footer class="Footer"><br>
+            <div class="container"><p class="m-0 text-center text-white">Todos los derechos reservados | © 2021 B1 SOFT</p></div><br>
+        </footer>
 </body>
 </html>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

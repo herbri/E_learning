@@ -195,11 +195,9 @@
                                     <label for="inputPassword">Nombre</label>
                                 </div>
                                 <br/>
-                                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" onclick="alert('La llave de recuperación a sido enviada al correo electrónico que proporcionaste.');">Enviar Correo de Recuperación    </button>
-                                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" onclick=()>
-                                    <span class="Estilo1"><a href="login.htm" class="Estilo1">Regresar</a>
-                                </button>
-                                </span>
+                                <a class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" onclick="alert('La llave de recuperación a sido enviada al correo electrónico que proporcionaste.');" href="login.htm">Enviar Correo de Recuperación    </a>
+                                  <a class="btn btn-lg btn-primary btn-block text-uppercase" href="login.htm"> Regresar</a>
+                                 
                             </form>
                             <small class="d-inline-block text-muted mt-5">Todos los derechos reservados | © 2021 B1 SOFT</small>
                         </div>
