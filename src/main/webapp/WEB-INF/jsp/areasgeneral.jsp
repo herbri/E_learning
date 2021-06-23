@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
@@ -52,7 +52,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.htm"><img src="B1_Soft_Blanco_con_Sombra2.png" width="130px" height="30"></a>
+                <a class="navbar-brand" href="index.htm"><img src="B1_Soft_Negro_con_Sombra.png" width="130px" height="30"></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
@@ -115,7 +115,7 @@
                                     
                                     </p>
                                 <br>
-                                <a type="button" class="btn btn-outline-success" href="area2.html">Comienza Ahora!!! →</a></center>
+                                <a type="button" class="btn btn-outline-success" href="area2.htm">Comienza Ahora!!! →</a></center>
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
                                 <br>
                                 <p class="card-text"> dedicadas principalmente a resguardar y analizar el acervo cultural de la humanidad, además de producir manifestaciones artísticas de todas las disciplinas: artes plásticas, danza, teatro, literatura y música.</p>
                                 <br>
-                                <a type="button"  type="submit"class="btn btn-outline-success" href="artes.html">Comienza Ahora!!! →</a></center>
+                                <a type="button"  type="submit"class="btn btn-outline-success" href="artes.htm">Comienza Ahora!!! →</a></center>
                             </div>
                         </div>
                     </div>

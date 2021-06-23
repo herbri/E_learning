@@ -73,7 +73,7 @@
                             <h4 class="card-title">Físico-Matemáticas</h4>
                             <p class="card-text">Aquí encontrataras cursos relacionados a el area de Físico-Matemáticas. </p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary" href="#!">Me interesa!</a></div>
+                       
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
@@ -83,7 +83,7 @@
                             <h4 class="card-title">Ciencias Sociales</h4>
                             <p class="card-text">Aquí encontrataras cursos relacionados a el area de Ciencias Sociales.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary" href="#!">Me interesa!</a></div>
+                        <div class="card-footer"><a class="btn btn-primary" href="registros.htm">Me interesa!</a></div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
@@ -95,7 +95,7 @@
                             <p class="card-text">Aquí encontrataras cursos relacionados a el area de Ciencias biológicas, 
                                 químicas y de salud.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary" href="#!">Me interesa!</a></div>
+                       
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
@@ -105,7 +105,7 @@
                             <h4 class="card-title">Arte y Humanidades</h4>
                             <p class="card-text">Aquí encontraras cursos relacionados a el area de Arte y Humanidades.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary" href="#!">Me interesa!</a></div>
+                       
                     </div>
                 </div>
             </div>

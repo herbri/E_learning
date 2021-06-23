@@ -200,11 +200,10 @@
                                     <label class="custom-control-label" for="customCheck1">Recordar mi Contraseña</label>
                                 </div>
                                 <br/>
-                                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Ingresar</button>
-                                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">
-                                    <span class="Estilo1"><a href="recuperarcontraseña.htm" class="Estilo1">Olvide mi contraseña</a>
-                                </button>
-                                </span>
+                                 <a class="btn btn-lg btn-primary btn-block text-uppercase" href="indexusu.htm"> Ingresar</a>
+                                  <a class="btn btn-lg btn-primary btn-block text-uppercase" href="recuperarcontraseña.htm"> Olvide mi contraseña </a>
+                                 <a class="btn btn-lg btn-primary btn-block text-uppercase" href="loginprof.htm"> Da click aqui si eres Instructor</a>
+                                 
                             </form>
                             <small class="d-inline-block text-muted mt-5">Todos los derechos reservados | © 2021 B1 SOFT</small>
                         </div>
