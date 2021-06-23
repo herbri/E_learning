@@ -163,6 +163,7 @@
                                 $('#BotonFormulario').click(function () {
                                     onOpenformulario();
                                 });
+<<<<<<< HEAD
 
                                 $('#dialogUsuarios').kendoDialog({
                                     title: "Cursos",
@@ -220,6 +221,30 @@
 =======
 >>>>>>> 63c720dec72afd54ecfcd01f4919eaf981f03937
 
+=======
+
+                                $('#dialogUsuarios').kendoDialog({
+                                    title: "Cursos",
+                                    width: "1300px",
+                                    height: "600px",
+                                    modal: true,
+                                    open: onOpenAdministrador,
+                                    visible: false,
+                                    closable: true
+                                });
+                            });
+
+
+
+
+
+
+                        </script>
+
+
+
+
+>>>>>>> 63c720dec72afd54ecfcd01f4919eaf981f03937
             
             
         </ul>
@@ -257,6 +282,7 @@
                                         </div>
                                         <div>
                                             <div id="sales-per-region"></div>
+<<<<<<< HEAD
                                         </div>
                                         <div>
                                             <div id="market-alice-mutton" class="market-donut"></div>
@@ -264,6 +290,15 @@
                                             <div id="market-inlagd-sill" class="market-donut"></div>
                                             <div id="market-spegesild" class="market-donut"></div>
                                         </div>
+=======
+                                        </div>
+                                        <div>
+                                            <div id="market-alice-mutton" class="market-donut"></div>
+                                            <div id="market-gravad-lax" class="market-donut"></div>
+                                            <div id="market-inlagd-sill" class="market-donut"></div>
+                                            <div id="market-spegesild" class="market-donut"></div>
+                                        </div>
+>>>>>>> 63c720dec72afd54ecfcd01f4919eaf981f03937
                                     </div>
                                 </div>
                             </div>
@@ -891,6 +926,7 @@
                                     },
                                     legend: {
                                         visible: false
+<<<<<<< HEAD
                                     },
                                     chartArea: {
                                         margin: {
@@ -899,6 +935,16 @@
                                         },
                                         background: "transparent"
                                     },
+=======
+                                    },
+                                    chartArea: {
+                                        margin: {
+                                            top: 15,
+                                            bottom: 0
+                                        },
+                                        background: "transparent"
+                                    },
+>>>>>>> 63c720dec72afd54ecfcd01f4919eaf981f03937
                                     seriesDefaults: {
                                         type: "donut"
                                     },

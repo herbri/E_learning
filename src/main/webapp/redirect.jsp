@@ -7,7 +7,11 @@ servlet but should be the only JSP outside of WEB-INF.
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <% response.sendRedirect("registros.htm"); %>
+=======
+<% response.sendRedirect("perfilinstructor.htm"); %>
+>>>>>>> 63c720dec72afd54ecfcd01f4919eaf981f03937
 =======
 <% response.sendRedirect("perfilinstructor.htm"); %>
 >>>>>>> 63c720dec72afd54ecfcd01f4919eaf981f03937
