@@ -35,12 +35,12 @@
         }</style>
     </head>
     
-    <body background="<%=request.getContextPath()%>/e_learning/src/main/webapp/WEB-INF/resources/images/Imagen2.jpeg">
+    <body background="Imagen2.jpeg">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="index.htm">
-                    <img src="<%=request.getContextPath()%>/e_learning/src/main/webapp/WEB-INF/resources/images/B1_Soft_Blanco_con_Sombra.png" width="130px" height="30"></img> 
+                    <img src="B1_Soft_Blanco_con_Sombra.png" width="130px" height="30"></img> 
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">

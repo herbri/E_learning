@@ -9,6 +9,6 @@ package com.b1soft.e_learning.dao;
  *
  * @author Jose
  */
-public class UsuariosDao {
+public interface UsuariosDao {
     
 }

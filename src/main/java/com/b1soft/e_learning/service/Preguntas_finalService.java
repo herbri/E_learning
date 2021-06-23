@@ -9,6 +9,6 @@ package com.b1soft.e_learning.service;
  *
  * @author Jose
  */
-public class Preguntas_finalService {
+public interface Preguntas_finalService {
     
 }

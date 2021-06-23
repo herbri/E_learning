@@ -20,6 +20,7 @@ C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\Instruc
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\LeccionesDao.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\CertificadoDao.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dto\DocumentosDto.java
+C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\PreguntasLeccionesService.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\impl\CursoDaoImpl.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\DocumentosService.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\RegistrosController.java
@@ -79,7 +80,6 @@ C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\Tes
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\VideosDao.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\impl\PreguntasLeccionDaoImpl.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\entidades\TestFinal.java
-C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\service\PreguntasLeccionService.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\dao\impl\TestFinalDaoImpl.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\entidades\TestLeccion.java
 C:\Users\Jose\Desktop\e_learning\src\main\java\com\b1soft\e_learning\controllers\LoginController.java

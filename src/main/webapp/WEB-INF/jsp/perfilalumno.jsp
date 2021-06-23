@@ -50,6 +50,37 @@
         <script src="https://kendo.cdn.telerik.com/2017.3.913/js/kendo.all.min.js"></script>
 
         <link rel="stylesheet" href="styles.css" />
+        
+        <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2021.2.511/styles/kendo.common-fiori.min.css" />
+        <link rel="stylesheet" href="css/styles.css"/>
+        <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2021.2.511/styles/kendo.highcontrast.min.css" />
+        <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2021.2.511/styles/kendo.default.mobile.min.css" />
+        
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+        
+
+
+        <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.js"></script>
+        <script src="https://kendo.cdn.telerik.com/2018.1.221/js/kendo.all.min.js"></script>
+        <script src="https://kendo.cdn.telerik.com/2018.1.221/js/kendo.timezones.min.js"></script>
+        <script src="http://kendo.cdn.telerik.com/2021.2.511/js/jquery.min.js"></script>
+
+        <script src="http://kendo.cdn.telerik.com/2021.2.511/js/kendo.all.min.js"></script>
+        <script src="http://kendo.cdn.telerik.com/2021.2.511/js/jquery.min.js'/>"></script>
+        <script src="http://kendo.cdn.telerik.com/2021.2.511/js/kendo.all.min.js'/>"></script>
+        <script src="http://kendo.cdn.telerik.com/2021.2.511/js/kendo.es-MX.js'/>"></script>
+        <script src="http://kendo.cdn.telerik.com/2021.2.511/js/pooper.min.js'/>"></script>
+        <script src="http://kendo.cdn.telerik.com/2021.2.511/js/bootstrap.min.js'/>"></script>
+        <script src="http://kendo.cdn.telerik.com/2021.2.511/js/all.min.js'/>"></script>
+        <script src="http://kendo.cdn.telerik.com/2021.2.511/js/jquery.min.js"></script>
+
+        <script src="http://kendo.cdn.telerik.com/2021.2.511/js/kendo.all.min.js"></script>
 
         <!--<style type="text/css">
             

@@ -40,6 +40,7 @@
                 <prop key="cursos.htm">CursosController</prop>
                 <prop key="examen.htm">ExamenController</prop>
                 <prop key="login.htm">LoginController</prop>
+                <prop key="loginprof.htm">LoginProfController</prop>
                 <prop key="perfilalumno.htm">PerfilAlumnoController</prop>
                 <prop key="perfilinstructor.htm">PerfilInstructorController</prop>
                 <prop key="recuperarcontraseña.htm">RecuperarContraseñaController</prop>

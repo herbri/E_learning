@@ -17,10 +17,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class PerfilInstructorController {
     /*Mostrar Vista*/
-    @RequestMapping(value = "indexprof.htm", method = RequestMethod.GET)
-    public ModelAndView indexprof(){
+    @RequestMapping(value = "perfilinstructor.htm", method = RequestMethod.GET)
+    public ModelAndView perfilinstructor(){
        ModelAndView model = new ModelAndView();
-        model.setViewName("indexprof");
+        model.setViewName("perfilinstructor");
         return model;
     }
 }

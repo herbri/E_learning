@@ -5,10 +5,13 @@
  */
 package com.b1soft.e_learning.dao;
 
+import com.b1soft.e_learning.entidades.Instructor;
+
 /**
  *
  * @author Jose
  */
-public class InstructorDao {
+public interface InstructorDao {
+    public Instructor create(final Instructor einstructor);
     
 }
